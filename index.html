@@ -6,25 +6,31 @@
         {
             alert("Muchas Gracias");
         }
-    
+        
+        function error()
+        {
+            window.open('error.html');
+            
+        }
     </script>
     <style>
     .title-cont {
-    margin-left: 100px;
+    margin-left: 600px;
 }
+        
 
-#divCont {
-    background-color: dodgerblue;
-    height: 200px;
-    width: 350px;
-    
-}
-#bt
+        #divind 
         {
-            margin-left: 130px;
-            margin-top: 60px;
+            margin-left: 300px;
         }
-
+        #buttonpad
+        {
+            background-color: gainsboro;
+            width: 252px;
+            height: 36px;
+            margin-left: 230px;
+        }
+        
     </style>
 	<link rel="icon" type="icon" href="images/IconWCApp.png"/>
 	<title>Just WC</title>
@@ -33,16 +39,22 @@
     <font face="Arial">
         <h1 class="title-cont">Just WC</h1>
     </font>
-        <div id="divCont">
-            <font face="Arial">
-        <p>Bienvenido Pero La pagina se esta desarrollando </p>
-            <p>Gracias Por La Espera</p>
-            </font>
-            <font color="white">
-                <a id="bt" href="grace.html">Informaccion</a>
-            </font>
-    
+    <div id="divind">
+    <font face="Arial" size="5px">
+        <div id="divCont"></div>
+        <div id="buttonpad">
+        <button onclick="error()">Inicio</button>    
+        <button onclick="error()">Baños</button> 
+        <button onclick="error()">Valorar</button> 
+        <button onclick="error()">Opciones</button> 
         </div>
+    </font>
+    <font face="Arial">
+        <p>Bienvenido a justWC Un servicio para valorar y buscar baños un servicio creado por Asierso inc.<br> Escoja opción en el panel</p>
+    </font>
+    </div>
+    
+        
     
     
 </body>
